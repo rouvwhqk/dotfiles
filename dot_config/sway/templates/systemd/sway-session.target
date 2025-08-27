@@ -1,0 +1,7 @@
+# for start graphical-session.target
+# put this file into ~/.config/systemd/user/sway-session.target
+
+[Unit]
+Description=Sway Session Target
+Requires=graphical-session.target
+After=graphical-session.target
